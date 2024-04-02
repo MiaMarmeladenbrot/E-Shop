@@ -29,9 +29,9 @@
 ## Links
 
 - [See live site here](https://e-shop-hmaz.onrender.com/)
-- [GitHub Repository](https://github.com/thomaserdmenger/e-shop)
-- [GitHub Author](https://github.com/thomaserdmenger)
-- [LinkedIn Author](https://www.linkedin.com/in/thomaserdmenger/)
+- [GitHub Repository](https://github.com/MiaMarmeladenbrot/E-Shop)
+- [GitHub Author](https://github.com/MiaMarmeladenbrot)
+- [LinkedIn Author](https://www.linkedin.com/in/ann-marie-mia-mecklenburg-99756016a/)
 
 ## Screenshot-Image
 
