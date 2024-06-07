@@ -81,15 +81,15 @@ const FilterPopup = () => {
                 key={index}
                 onClick={(e) => handleCatClick(e.target.value)}
                 className={
-                  catVal === cat
+                  catVal === cat.slug
                     ? darkMode
                       ? "popup__button--selected dark"
                       : "popup__button--selected"
                     : "popup__button"
                 }
-                value={cat}
+                value={cat.slug}
               >
-                {cat.replace("-", " ")}
+                {cat.name.replace("-", " ")}
               </button>
             );
           })}

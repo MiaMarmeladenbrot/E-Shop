@@ -14,6 +14,7 @@ const Categories = () => {
   const { categoriesData, setCategoriesData } = useContext(
     fetchCategoriesContext
   );
+  // console.log(categoriesData);
 
   // * useContext für User Input
   const { userInput, setUserInput } = useContext(userInputContext);
@@ -27,18 +28,19 @@ const Categories = () => {
       <div className="categories-flex">
         {categoriesData ? (
           categoriesData.map((item, index) => (
+            // # oder Änderungen rückgängig und beim Fetchen nur alle .slug als array speichern?
             <Link
               to="/search"
               key={index}
               onClick={() => {
-                setCatVal(item);
+                setCatVal(item.slug);
                 setUserInput("");
               }}
             >
               <div>
                 {/* passende Images aus eigenem Array in categoriesImgData */}
-                <img src={categoriesImgData[item]} alt="" />
-                <p>{item.replace("-", " ")}</p>
+                <img src={categoriesImgData[item.slug]} alt="" />
+                <p>{item.name.replace("-", " ")}</p>
               </div>
             </Link>
           ))
