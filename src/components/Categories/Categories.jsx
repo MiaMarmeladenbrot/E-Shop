@@ -28,7 +28,6 @@ const Categories = () => {
       <div className="categories-flex">
         {categoriesData ? (
           categoriesData.map((item, index) => (
-            // # oder Änderungen rückgängig und beim Fetchen nur alle .slug als array speichern?
             <Link
               to="/search"
               key={index}
