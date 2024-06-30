@@ -9,7 +9,7 @@
 
 ## Purpose of the App
 
-- Search the store for products, categories or brands
+- Search for products, categories or brands
 - Filter by category, price and/or brand
 - Save your favorites for later use
 - View the details of each individual item
